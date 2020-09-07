@@ -18,5 +18,18 @@
             android:onClick="pathMeasure"
             android:text="PathMeasure" />
 
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:onClick="svg1"
+            android:text="SVG动画1" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:onClick="svg2"
+            android:text="SVG动画2" />
     </LinearLayout>
 </androidx.core.widget.NestedScrollView>

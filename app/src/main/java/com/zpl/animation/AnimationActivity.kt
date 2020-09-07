@@ -15,6 +15,13 @@ class AnimationActivity : AppCompatActivity() {
 
     fun pathMeasure(view: View) {
         startActivity(Intent(this, PathMeasureActivity::class.java))
+    }
 
+    fun svg1(view: View) {
+        startActivity(Intent(this, MainLActivity::class.java))
+    }
+
+    fun svg2(view: View) {
+        startActivity(Intent(this, VectorDemo::class.java))
     }
 }
