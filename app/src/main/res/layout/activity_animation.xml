@@ -22,14 +22,14 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="5dp"
-            android:onClick="svg1"
-            android:text="SVG动画1" />
+            android:onClick="svg"
+            android:text="SVG动画" />
 
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="5dp"
-            android:onClick="svg2"
-            android:text="SVG动画2" />
+            android:onClick="bezier"
+            android:text="贝塞尔曲线" />
     </LinearLayout>
 </androidx.core.widget.NestedScrollView>

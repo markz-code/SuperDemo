@@ -24,6 +24,13 @@
         </activity>
         <activity android:name=".animation.VectorDemo" />
         <activity android:name=".animation.MainLActivity" />
+        <activity android:name=".animation.BezierMainActivity" />
+        <activity android:name=".animation.SecondBezierActivity"></activity>
+        <activity android:name=".animation.ThirdBezierActivity"></activity>
+        <activity android:name=".animation.DrawPadActivity"></activity>
+        <activity android:name=".animation.PathMorthingActivity"></activity>
+        <activity android:name=".animation.WaveActivity"></activity>
+        <activity android:name=".animation.PathBezierActivity"></activity>
     </application>
 
 </manifest>

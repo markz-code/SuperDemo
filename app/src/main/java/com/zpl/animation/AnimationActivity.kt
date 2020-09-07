@@ -17,11 +17,11 @@ class AnimationActivity : AppCompatActivity() {
         startActivity(Intent(this, PathMeasureActivity::class.java))
     }
 
-    fun svg1(view: View) {
-        startActivity(Intent(this, MainLActivity::class.java))
+    fun svg(view: View) {
+        startActivity(Intent(this, VectorDemo::class.java))
     }
 
-    fun svg2(view: View) {
-        startActivity(Intent(this, VectorDemo::class.java))
+    fun bezier(view: View) {
+        startActivity(Intent(this, BezierMainActivity::class.java))
     }
 }
