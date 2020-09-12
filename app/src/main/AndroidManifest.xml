@@ -9,9 +9,11 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+        <activity android:name=".costomeview.MaterialEditextActivity"></activity>
+        <activity android:name=".costomeview.CustomeViewActivity" />
         <activity
             android:name=".animation.PathMeasureActivity"
-            android:label="PathMeasure"></activity>
+            android:label="PathMeasure" />
         <activity
             android:name=".animation.AnimationActivity"
             android:label="Animation" />
@@ -25,12 +27,12 @@
         <activity android:name=".animation.VectorDemo" />
         <activity android:name=".animation.MainLActivity" />
         <activity android:name=".animation.BezierMainActivity" />
-        <activity android:name=".animation.SecondBezierActivity"></activity>
-        <activity android:name=".animation.ThirdBezierActivity"></activity>
-        <activity android:name=".animation.DrawPadActivity"></activity>
-        <activity android:name=".animation.PathMorthingActivity"></activity>
-        <activity android:name=".animation.WaveActivity"></activity>
-        <activity android:name=".animation.PathBezierActivity"></activity>
+        <activity android:name=".animation.SecondBezierActivity" />
+        <activity android:name=".animation.ThirdBezierActivity" />
+        <activity android:name=".animation.DrawPadActivity" />
+        <activity android:name=".animation.PathMorthingActivity" />
+        <activity android:name=".animation.WaveActivity" />
+        <activity android:name=".animation.PathBezierActivity" />
     </application>
 
 </manifest>

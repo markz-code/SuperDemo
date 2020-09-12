@@ -6,6 +6,7 @@ import android.os.Bundle
 import android.view.View
 import android.view.animation.Animation
 import com.zpl.animation.AnimationActivity
+import com.zpl.costomeview.CustomeViewActivity
 
 class MainActivity : AppCompatActivity() {
 
@@ -17,4 +18,9 @@ class MainActivity : AppCompatActivity() {
     fun animation(view: View) {
         startActivity(Intent(this, AnimationActivity::class.java))
     }
+
+    fun customeView(view: View) {
+        startActivity(Intent(this, CustomeViewActivity::class.java))
+    }
+
 }

@@ -15,14 +15,9 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="5dp"
-            android:onClick="animation"
-            android:text="动画" />
+            android:onClick="editext"
+            android:text="MaterialEditext" />
 
-        <Button
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_margin="5dp"
-            android:onClick="customeView"
-            android:text="自定义View" />
+
     </LinearLayout>
 </androidx.core.widget.NestedScrollView>
