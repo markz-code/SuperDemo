@@ -9,7 +9,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".costomeview.MaterialEditextActivity"></activity>
+        <activity android:name=".costomeview.ScaleImageViewActivity"></activity>
+        <activity android:name=".costomeview.MaterialEditextActivity" />
         <activity android:name=".costomeview.CustomeViewActivity" />
         <activity
             android:name=".animation.PathMeasureActivity"

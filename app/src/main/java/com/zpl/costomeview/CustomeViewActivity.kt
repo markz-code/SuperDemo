@@ -15,6 +15,10 @@ class CustomeViewActivity : AppCompatActivity() {
     }
 
     fun editext(view: View) {
-        startActivity(Intent(this,MaterialEditextActivity::class.java))
+        startActivity(Intent(this, MaterialEditextActivity::class.java))
+    }
+
+    fun scaleImageView(view: View) {
+        startActivity(Intent(this, ScaleImageViewActivity::class.java))
     }
 }
