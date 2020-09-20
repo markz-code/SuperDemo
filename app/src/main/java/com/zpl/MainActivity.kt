@@ -7,6 +7,7 @@ import android.view.View
 import android.view.animation.Animation
 import com.zpl.animation.AnimationActivity
 import com.zpl.costomeview.CustomeViewActivity
+import com.zpl.sqlite.SqliteActivity
 
 class MainActivity : AppCompatActivity() {
 
@@ -21,6 +22,10 @@ class MainActivity : AppCompatActivity() {
 
     fun customeView(view: View) {
         startActivity(Intent(this, CustomeViewActivity::class.java))
+    }
+
+    fun sqlite(view: View) {
+        startActivity(Intent(this, SqliteActivity::class.java))
     }
 
 }
