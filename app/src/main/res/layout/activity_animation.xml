@@ -31,5 +31,12 @@
             android:layout_margin="5dp"
             android:onClick="bezier"
             android:text="贝塞尔曲线" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:onClick="floatWindow"
+            android:text="添加悬浮窗" />
     </LinearLayout>
 </androidx.core.widget.NestedScrollView>
