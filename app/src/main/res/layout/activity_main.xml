@@ -31,5 +31,18 @@
             android:layout_margin="5dp"
             android:onClick="sqlite"
             android:text="数据库操作" />
+
+        <com.zpl.view.TouchViewGroup
+            android:background="@color/colorPrimary"
+            android:layout_width="match_parent"
+            android:layout_height="200dp">
+
+            <com.zpl.view.Touch
+                android:background="@color/colorAccent"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
+
+        </com.zpl.view.TouchViewGroup>
+
     </LinearLayout>
 </androidx.core.widget.NestedScrollView>
