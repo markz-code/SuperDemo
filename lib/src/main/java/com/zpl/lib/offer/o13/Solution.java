@@ -6,6 +6,10 @@ package com.zpl.lib.offer.o13;
  */
 public class Solution {
 
+    public static void main(String[] args) {
+        System.out.println(getDigitSum(45));
+    }
+
     private static int movingCount(int threshold, int rows, int cols) {
         if (threshold <= 0 || rows <= 0 || cols <= 0) {
             return 0;
