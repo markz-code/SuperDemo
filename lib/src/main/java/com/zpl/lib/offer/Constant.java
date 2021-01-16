@@ -13,6 +13,14 @@ public class Constant {
     public static int[] preorder = {3, 9, 20, 15, 7};
     public static int[] inorder = {9, 3, 15, 20, 7};
 
+    public static char[][] path = {
+            {'a', 'b', 't', 'g'},
+            {'c', 'f', 'c', 's'},
+            {'j', 'd', 'e', 'h'}
+    };
+
+    public static char[] str = {'b','f','c','e'};
+
     /**
      * 链表 0 1 2 3 4
      */
