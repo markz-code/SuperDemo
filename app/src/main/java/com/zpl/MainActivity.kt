@@ -7,6 +7,7 @@ import android.view.View
 import android.view.animation.Animation
 import com.zpl.animation.AnimationActivity
 import com.zpl.costomeview.CustomeViewActivity
+import com.zpl.jetpack.JetpackDemoActivity
 import com.zpl.sqlite.SqliteActivity
 
 class MainActivity : AppCompatActivity() {
@@ -26,6 +27,10 @@ class MainActivity : AppCompatActivity() {
 
     fun sqlite(view: View) {
         startActivity(Intent(this, SqliteActivity::class.java))
+    }
+
+    fun jetpack(view: View) {
+        startActivity(Intent(this, JetpackDemoActivity::class.java))
     }
 
 }
