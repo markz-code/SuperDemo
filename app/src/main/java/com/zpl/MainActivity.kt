@@ -1,14 +1,15 @@
 package com.zpl
 
 import android.content.Intent
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.util.Log
 import android.view.View
-import android.view.animation.Animation
+import androidx.appcompat.app.AppCompatActivity
 import com.zpl.animation.AnimationActivity
 import com.zpl.costomeview.CustomeViewActivity
 import com.zpl.jetpack.JetpackDemoActivity
 import com.zpl.sqlite.SqliteActivity
+
 
 class MainActivity : AppCompatActivity() {
 
